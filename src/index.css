@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #213547;
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: block;
+}
+
+a {
+  font-weight: 500;
+  color: #3b82f6; /* Tailwind blue-500 */
+  text-decoration: none;
+}
+a:hover {
+  color: #2563eb; /* blue-600 */
+}
